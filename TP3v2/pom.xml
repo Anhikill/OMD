@@ -168,8 +168,8 @@
 	</reporting>
 	
 	<scm>
-        <connection>scm:git:git://C:/Users/Ki/git/OMD_TP_MAVEN/monappli</connection>
-        <url>https://github.com/Anhikill/OMD.git/svn/monappli-web</url>
+        <connection>scm:git:git://https://github.com/Anhikill/OMD.git</connection>
+        <url>https://github.com/Anhikill/OMD.git</url>
     </scm>
     
     
