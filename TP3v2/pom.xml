@@ -168,7 +168,7 @@
 	</reporting>
 	
 	<scm>
-        <connection>scm:git:git://https://github.com/Anhikill/OMD.git</connection>
+        <connection>scm:git:git://github.com/Anhikill/OMD.git</connection>
         <url>https://github.com/Anhikill/OMD.git</url>
     </scm>
     
