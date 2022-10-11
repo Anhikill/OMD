@@ -9,8 +9,7 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <name>TP3v2</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>file:///C:/Users/Ki/git/OMD_TP_Maven/TP3v2/target/site/index.html</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -113,6 +112,32 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
         </plugin>
+        
+        
+        <plugin>
+         	<groupId>org.apache.maven.plugins</groupId>
+        	<artifactId>maven-jar-plugin</artifactId>
+        	<version>3.3.0</version>
+        	<configuration>
+          		<archive>
+            		<index>true</index>
+            		<manifest>
+              			<addClasspath>true</addClasspath>
+            		</manifest>
+            		<manifestEntries>
+              			<mode>development</mode>
+			             <url>${project.url}</url>
+			             <key>value</key>
+            		</manifestEntries>
+          		</archive>
+        	</configuration>
+        </plugin>
+
+ 
+        
+        
+        
+        
     </plugins>
 	</build>
 	

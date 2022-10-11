@@ -1,0 +1,6 @@
+projectKey=OMD.ANNICGRANDJEAN:TP3v2
+serverUrl=http://localhost:9000
+serverVersion=9.6.1.59531
+dashboardUrl=http://localhost:9000/dashboard?id=OMD.ANNICGRANDJEAN%3ATP3v2
+ceTaskId=AYPGu2FvvXZBnQFmY_7e
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYPGu2FvvXZBnQFmY_7e
