@@ -149,6 +149,7 @@
                 <version>3.1.1</version>
                 <configuration>
                     <descriptors>
+                       <descriptor>src/assembly/zip2.xml</descriptor>
                        <descriptor>src/assembly/zip.xml</descriptor>
                     </descriptors>
                 </configuration>
@@ -162,6 +163,8 @@
                     </execution>
                 </executions>
             </plugin>
+            
+            
         
         
     </plugins>

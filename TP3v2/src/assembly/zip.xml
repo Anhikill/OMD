@@ -8,23 +8,13 @@
     <formats>
         <format>zip</format>
     </formats>
+    
+    
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}/conf</directory>
+            <directory>${project.build.directory}/../src</directory>
         </fileSet>
     </fileSets>
-    <files>
-        <file>
-            <source> ${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
-            <outputDirectory>/</outputDirectory>
-        </file>
-    </files>
-    <dependencySets>
-        <dependencySet>
-            <outputDirectory>lib</outputDirectory>
-            <excludes>
-                <exclude>${project.groupId}:${project.artifactId}:jar:*</exclude>
-            </excludes>
-        </dependencySet>
-    </dependencySets>
+    
+    
 </assembly>
