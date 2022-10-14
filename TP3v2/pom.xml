@@ -128,11 +128,13 @@
             		<index>true</index>
             		<manifest>
               			<addClasspath>true</addClasspath>
+              			<mainClass></mainClass>
             		</manifest>
             		<manifestEntries>
               			<mode>development</mode>
 			             <url>${project.url}</url>
 			             <key>value</key>
+			             
             		</manifestEntries>
           		</archive>
         	</configuration>
@@ -146,7 +148,6 @@
                 <version>3.1.1</version>
                 <configuration>
                     <descriptors>
-                       <descriptor>src/assembly/zip2.xml</descriptor>
                        <descriptor>src/assembly/zip.xml</descriptor>
                     </descriptors>
                 </configuration>
@@ -160,13 +161,6 @@
                     </execution>
                 </executions>
             </plugin>
-            
-            
-            <plugin>
-		        <groupId>org.jenkins-ci.tools</groupId>
-		        <artifactId>maven-hpi-plugin</artifactId>
-		        <version>3.35</version>
-		    </plugin>
         
         
     </plugins>
